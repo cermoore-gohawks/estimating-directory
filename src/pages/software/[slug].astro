@@ -24,6 +24,15 @@ const description =
   d.description ?? `${d.name} review: pricing (${d.startingPriceLabel}), free trial, platforms, pros, cons, and who it's best for.`;
 const outbound = d.affiliateUrl || d.vendorUrl;
 
+// Internal links: other listings ranked by how many trades they share with this one.
+const related = (await getCollection('listings'))
+  .filter((e) => e.id !== entry.id)
+  .map((e) => ({ e, shared: e.data.trades.filter((t) => d.trades.includes(t)).length }))
+  .filter((r) => r.shared > 0)
+  .sort((a, b) => b.shared - a.shared || a.e.data.name.localeCompare(b.e.data.name))
+  .slice(0, 4)
+  .map((r) => r.e);
+
 // SoftwareApplication JSON-LD. Deliberately no aggregateRating/review: we don't publish ratings.
 const software: Record<string, unknown> = {
   '@context': 'https://schema.org',
@@ -88,5 +97,17 @@ if (d.startingPrice !== null) {
     <div class="prose">
       <Content />
     </div>
+
+    {related.length > 0 && (
+      <section class="related" aria-labelledby="related-heading">
+        <h2 id="related-heading">Related software</h2>
+        <ul>
+          {related.map((r) => (
+            <li><a href={href(`/software/${r.id}/`)}>{r.data.name} review</a>: {r.data.startingPriceLabel}</li>
+          ))}
+        </ul>
+        <p>Browse all software for <a href={href(`/trades/${primaryTrade.slug}/`)}>{primaryTrade.name.toLowerCase()}</a> or see the <a href={href('/software/')}>full directory</a>.</p>
+      </section>
+    )}
   </article>
 </Base>
