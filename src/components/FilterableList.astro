@@ -1,0 +1,65 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import ListingCard from './ListingCard.astro';
+import { TRADES } from '../data/trades';
+
+interface Props {
+  entries: CollectionEntry<'listings'>[];
+  showTradeFilter?: boolean;
+  initialTrade?: string;
+}
+const { entries, showTradeFilter = true, initialTrade = '' } = Astro.props;
+---
+<form class="filters" data-filters aria-label="Filter software" onsubmit="return false">
+  {showTradeFilter && (
+    <label>Trade
+      <select name="trade">
+        <option value="">All trades</option>
+        {TRADES.map((t) => <option value={t.slug} selected={t.slug === initialTrade}>{t.name}</option>)}
+      </select>
+    </label>
+  )}
+  <label>Price (lowest paid plan)
+    <select name="band">
+      <option value="">Any price</option>
+      <option value="free">Has a free plan</option>
+      <option value="under100">Under $100/mo</option>
+      <option value="100to300">$100–$300/mo</option>
+      <option value="over300">Over $300/mo</option>
+    </select>
+  </label>
+  <label class="check"><input type="checkbox" name="trial" /> Free trial only</label>
+  <p class="count" aria-live="polite" data-count></p>
+</form>
+<div class="grid" data-list>
+  {entries.map((e) => <ListingCard entry={e} />)}
+</div>
+<p class="empty" data-empty hidden>No software matches these filters yet.</p>
+
+<script>
+  for (const form of document.querySelectorAll<HTMLFormElement>('[data-filters]')) {
+    const list = form.nextElementSibling as HTMLElement;
+    const empty = list.nextElementSibling as HTMLElement;
+    const count = form.querySelector<HTMLElement>('[data-count]')!;
+    const cards = Array.from(list.querySelectorAll<HTMLElement>('.card'));
+    const apply = () => {
+      const fd = new FormData(form);
+      const trade = String(fd.get('trade') ?? '');
+      const band = String(fd.get('band') ?? '');
+      const trial = fd.get('trial') === 'on';
+      let shown = 0;
+      for (const c of cards) {
+        const ok =
+          (!trade || (c.dataset.trades ?? '').split(' ').includes(trade)) &&
+          (!trial || c.dataset.trial === 'true') &&
+          (!band || (band === 'free' ? c.dataset.freeplan === 'true' : c.dataset.band === band));
+        c.hidden = !ok;
+        if (ok) shown++;
+      }
+      count.textContent = `${shown} of ${cards.length} shown`;
+      empty.hidden = shown !== 0;
+    };
+    form.addEventListener('change', apply);
+    apply();
+  }
+</script>

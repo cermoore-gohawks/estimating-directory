@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FilterableList from '../../components/FilterableList.astro';
+import { breadcrumbLd } from '../../lib/schema';
+
+const entries = (await getCollection('listings')).sort((a, b) => a.data.name.localeCompare(b.data.name));
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'All software', path: '/software/' }];
+---
+<Base
+  title="All Estimating & Takeoff Software Reviews"
+  description="Every takeoff and estimating tool we've reviewed, filterable by trade, price, and free trial. Prices verified on vendor sites."
+  jsonLd={breadcrumbLd(Astro.site, crumbs)}
+>
+  <Breadcrumbs items={crumbs} />
+  <h1>All estimating &amp; takeoff software</h1>
+  <FilterableList entries={entries} />
+</Base>

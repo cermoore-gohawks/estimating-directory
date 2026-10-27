@@ -1,0 +1,29 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { href, monthlyEquivalent, priceBand } from '../lib/util';
+import { tradeBySlug } from '../data/trades';
+
+interface Props { entry: CollectionEntry<'listings'> }
+const { entry } = Astro.props;
+const d = entry.data;
+const monthly = monthlyEquivalent(d.startingPrice, d.startingPricePeriod);
+const band = priceBand(monthly);
+---
+<article
+  class="card"
+  data-trades={d.trades.join(' ')}
+  data-trial={String(d.freeTrial)}
+  data-freeplan={String(d.freePlan)}
+  data-band={band}
+>
+  <h3><a href={href(`/software/${entry.id}/`)}>{d.name}</a></h3>
+  <p class="best">{d.bestFor}</p>
+  <dl class="facts">
+    <div><dt>From</dt><dd>{d.startingPriceLabel}</dd></div>
+    <div><dt>Free trial</dt><dd>{d.freeTrial ? 'Yes' : 'No'}{d.freePlan ? ' · free plan' : ''}</dd></div>
+    <div><dt>Platforms</dt><dd>{d.platforms.join(', ')}</dd></div>
+  </dl>
+  <ul class="tags">
+    {d.trades.map((t) => <li>{tradeBySlug(t)?.name ?? t}</li>)}
+  </ul>
+</article>

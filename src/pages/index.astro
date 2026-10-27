@@ -1,0 +1,51 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ListingCard from '../components/ListingCard.astro';
+import { TRADES } from '../data/trades';
+import { SITE } from '../data/site';
+import { href } from '../lib/util';
+
+const all = await getCollection('listings');
+const newest = [...all]
+  .sort((a, b) => +(b.data.publishedAt ?? b.data.lastVerified) - +(a.data.publishedAt ?? a.data.lastVerified))
+  .slice(0, 6);
+const counts = Object.fromEntries(TRADES.map((t) => [t.slug, all.filter((e) => e.data.trades.includes(t.slug)).length]));
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: new URL(href('/'), Astro.site).href,
+  description: SITE.defaultDescription,
+};
+---
+<Base title={SITE.name} description={SITE.defaultDescription} jsonLd={jsonLd}>
+  <section class="hero">
+    <h1>Takeoff &amp; estimating software for small contractors</h1>
+    <p class="lede">
+      Plain-English reviews of the tools roofers, concrete crews, electricians, and small GCs actually use to measure plans and price bids.
+      Every price is checked on the vendor's own site, with sources linked, and nothing is made up. If we couldn't verify something, the page says so.
+    </p>
+    <p><a class="btn" href={href('/software/')}>Compare all software</a> <a class="btn ghost" href={href('/about/')}>How we review</a></p>
+  </section>
+
+  <section>
+    <h2>Browse by trade</h2>
+    <ul class="trade-grid">
+      {TRADES.map((t) => (
+        <li>
+          <a href={href(`/trades/${t.slug}/`)}>
+            <strong>{t.name}</strong>
+            <span class="muted">{counts[t.slug]} {counts[t.slug] === 1 ? 'review' : 'reviews'}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section>
+    <h2>Newest reviews</h2>
+    <div class="grid">{newest.map((e) => <ListingCard entry={e} />)}</div>
+  </section>
+</Base>

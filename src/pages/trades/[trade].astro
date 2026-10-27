@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FilterableList from '../../components/FilterableList.astro';
+import { TRADES, type Trade } from '../../data/trades';
+import { breadcrumbLd } from '../../lib/schema';
+import { href } from '../../lib/util';
+
+export function getStaticPaths() {
+  return TRADES.map((trade) => ({ params: { trade: trade.slug }, props: { trade } }));
+}
+
+const { trade } = Astro.props as { trade: Trade };
+const entries = (await getCollection('listings'))
+  .filter((e) => e.data.trades.includes(trade.slug))
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Trades', path: '/trades/' },
+  { name: trade.name, path: `/trades/${trade.slug}/` },
+];
+const year = new Date().getFullYear();
+---
+<Base
+  title={`Best ${trade.name} Estimating & Takeoff Software (${year})`}
+  description={`Compare ${trade.name.toLowerCase()} estimating and takeoff software for small contractors: verified pricing, free trials, platforms, pros and cons.`}
+  jsonLd={breadcrumbLd(Astro.site, crumbs)}
+>
+  <Breadcrumbs items={crumbs} />
+  <h1>{trade.name} estimating &amp; takeoff software</h1>
+  <p class="lede">{trade.blurb}</p>
+  {entries.length > 0 ? (
+    <FilterableList entries={entries} showTradeFilter={false} />
+  ) : (
+    <p>We haven't published a {trade.name.toLowerCase()} review yet. <a href={href('/software/')}>See all reviewed software</a>.</p>
+  )}
+</Base>

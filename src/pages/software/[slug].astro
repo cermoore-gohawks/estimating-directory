@@ -1,0 +1,92 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { tradeBySlug } from '../../data/trades';
+import { breadcrumbLd } from '../../lib/schema';
+import { href, formatDate, isoDate } from '../../lib/util';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('listings');
+  return entries.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props as { entry: CollectionEntry<'listings'> };
+const d = entry.data;
+const { Content } = await render(entry);
+const primaryTrade = tradeBySlug(d.trades[0])!;
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: primaryTrade.name, path: `/trades/${primaryTrade.slug}/` },
+  { name: d.name, path: `/software/${entry.id}/` },
+];
+const description =
+  d.description ?? `${d.name} review: pricing (${d.startingPriceLabel}), free trial, platforms, pros, cons, and who it's best for.`;
+const outbound = d.affiliateUrl || d.vendorUrl;
+
+// SoftwareApplication JSON-LD. Deliberately no aggregateRating/review: we don't publish ratings.
+const software: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: d.name,
+  url: d.vendorUrl,
+  applicationCategory: 'BusinessApplication',
+  applicationSubCategory: 'Construction estimating and takeoff software',
+  operatingSystem: d.platforms.join(', '),
+  description: d.bestFor,
+};
+if (d.startingPrice !== null) {
+  software.offers = {
+    '@type': 'Offer',
+    price: d.startingPrice.toFixed(2),
+    priceCurrency: 'USD',
+    description: d.startingPriceLabel,
+  };
+}
+---
+<Base
+  title={`${d.name} Review: Pricing, Pros & Cons`}
+  description={description}
+  ogType="article"
+  jsonLd={[software, breadcrumbLd(Astro.site, crumbs)]}
+>
+  <Breadcrumbs items={crumbs} />
+  <article class="review">
+    <header>
+      <h1>{d.name} review</h1>
+      <p class="lede">{d.bestFor}</p>
+      <p class="muted">Last verified <time datetime={isoDate(d.lastVerified)}>{formatDate(d.lastVerified)}</time></p>
+    </header>
+
+    <aside class="summary" aria-label="Key facts">
+      <dl>
+        <div><dt>Starting price</dt><dd>{d.startingPriceLabel}</dd></div>
+        <div><dt>Pricing</dt><dd>{d.pricingSummary}</dd></div>
+        <div><dt>Free trial</dt><dd>{d.freeTrial ? 'Yes' : 'No'}{d.freePlan ? ' (free plan available)' : ''}</dd></div>
+        <div><dt>Platforms</dt><dd>{d.platforms.join(', ')}</dd></div>
+        <div><dt>Trades</dt><dd>{d.trades.map((t, i) => <>{i > 0 && ', '}<a href={href(`/trades/${t}/`)}>{tradeBySlug(t)?.name}</a></>)}</dd></div>
+      </dl>
+      <a class="btn" href={outbound} rel={d.affiliateUrl ? 'sponsored noopener' : 'noopener'} target="_blank">Visit {d.name} ↗</a>
+    </aside>
+
+    <section class="proscons">
+      <div>
+        <h2>Pros</h2>
+        <ul>{d.pros.map((p) => <li>{p}</li>)}</ul>
+      </div>
+      <div>
+        <h2>Cons</h2>
+        <ul>{d.cons.map((c) => <li>{c}</li>)}</ul>
+      </div>
+    </section>
+
+    <section class="verdict">
+      <h2>Verdict</h2>
+      <p>{d.verdict}</p>
+    </section>
+
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</Base>

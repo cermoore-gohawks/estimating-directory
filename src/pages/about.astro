@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { breadcrumbLd } from '../lib/schema';
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'About & methodology', path: '/about/' }];
+---
+<Base
+  title="About & Review Methodology"
+  description="How we research and review estimating software: facts verified on vendor sites, sources linked, no invented prices or ratings, and clear disclosure about affiliate links."
+  jsonLd={breadcrumbLd(Astro.site, crumbs)}
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="prose">
+    <h1>About this directory &amp; how we review</h1>
+    <p>
+      This site helps small contractors pick takeoff and estimating software without wading through vendor-written "top 10" lists.
+      We cover tools for general contractors and specialty trades, and we organize everything by trade because a roofer and an electrician need different things.
+    </p>
+
+    <h2>What "verified" means here</h2>
+    <ul>
+      <li><strong>Vendor sources first.</strong> We take prices, plan names, free-trial terms, and platform support from the vendor's own pricing, product, and help pages. Each review links the pages we used.</li>
+      <li><strong>Dated.</strong> Every review shows a "last verified" date. Software pricing changes often, so treat anything older than a few months as a starting point and confirm with the vendor.</li>
+      <li><strong>Unverified is labeled.</strong> When a vendor doesn't publish something (for example, a price you only get on a sales call), we say so rather than guess.</li>
+      <li><strong>No invented ratings.</strong> We don't publish star ratings or review counts. When we mention a vendor's own claims (like customer counts), we attribute them to the vendor.</li>
+    </ul>
+
+    <h2>How we decide pros, cons, and verdicts</h2>
+    <p>
+      Pros and cons come from the documented feature set, pricing structure, and platform limits, weighed for a small contractor (roughly 1–25 people) who estimates their own jobs.
+      For example, an annual-only contract or a Windows-only install is a real con for a two-person crew, even if a large firm wouldn't care.
+      Where we've used a product hands-on, the review says so; where we haven't, the review is based on published documentation.
+    </p>
+
+    <h2>Affiliate links and money</h2>
+    <p>
+      Right now this site has no affiliate links, sponsors, or paid placements. We may add affiliate or referral links later, which would pay us a commission if you buy through them at no extra cost to you.
+      If we do: links will be marked, they will never change a verdict or ranking, and vendors can't pay to have cons removed.
+      Any sponsored or featured placement will be clearly labeled as such.
+    </p>
+
+    <h2>Corrections</h2>
+    <p>
+      If a price or fact is out of date, or you're a vendor and something is wrong, tell us and we'll re-verify against your public pages and update the "last verified" date.
+    </p>
+  </div>
+</Base>

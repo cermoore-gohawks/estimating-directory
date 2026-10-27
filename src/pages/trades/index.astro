@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { TRADES } from '../../data/trades';
+import { href } from '../../lib/util';
+import { breadcrumbLd } from '../../lib/schema';
+
+const all = await getCollection('listings');
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'Trades', path: '/trades/' }];
+---
+<Base
+  title="Estimating Software by Trade"
+  description="Find takeoff and estimating software for your trade: roofing, concrete, electrical, plumbing, HVAC, painting, landscaping, drywall, and more."
+  jsonLd={breadcrumbLd(Astro.site, crumbs)}
+>
+  <Breadcrumbs items={crumbs} />
+  <h1>Estimating software by trade</h1>
+  <ul class="trade-list">
+    {TRADES.map((t) => {
+      const n = all.filter((e) => e.data.trades.includes(t.slug)).length;
+      return (
+        <li>
+          <h2><a href={href(`/trades/${t.slug}/`)}>{t.name}</a></h2>
+          <p>{t.blurb} <span class="muted">({n} {n === 1 ? 'review' : 'reviews'})</span></p>
+        </li>
+      );
+    })}
+  </ul>
+</Base>
