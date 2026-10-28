@@ -35,7 +35,7 @@ PlanSwift is a Windows desktop takeoff and estimating application from Construct
 
 ## Who it's for
 
-PlanSwift lists general contractors and specialty trades: drywall, plumbing, framing, masonry, landscape, site and earthwork, electrical, concrete, HVAC, painting, and flooring. It suits estimators who already work in Windows and Excel.
+PlanSwift lists general contractors and specialty trades: drywall, plumbing, framing, masonry, landscape, site and earthwork, electrical, concrete, HVAC, painting, and flooring. It suits estimators who already work in Windows and Excel. If you're on a Mac or want monthly billing, browser-based tools like [zzTakeoff](../zztakeoff/) (from PlanSwift's original creator) and [STACK](../stack/) are the closest alternatives.
 
 ## Pricing (verified October 26, 2026)
 
