@@ -34,7 +34,7 @@ description: "zzTakeoff review: $49.99/user/mo browser-based takeoff, 14-day fre
 
 zzTakeoff is cloud-based construction takeoff software. You upload plan sets (PDF, JPG, PNG, or TIFF), scale them, and measure areas, lengths, and counts, including area cutouts. Measurements can be tied to reusable templates and assemblies so materials and quantities roll up as you go. Teams can work in the same takeoff at the same time and see each other's changes live.
 
-zzTakeoff says its founder, Heber Allred, created PlanSwift and sold it in 2013, and that zzTakeoff is a separate product built from scratch. It isn't affiliated with PlanSwift or ConstructConnect. If you're comparing the two, see our [PlanSwift review](../planswift/).
+zzTakeoff says its founder, Heber Allred, created PlanSwift and sold it in 2013, and that zzTakeoff is a separate product built from scratch. It isn't affiliated with PlanSwift or ConstructConnect. If you're comparing the two, see our [PlanSwift review](../planswift/). If you're weighing it against PDF-markup software, see our [Bluebeam Revu review](../bluebeam-revu/).
 
 ## Who it's for
 
