@@ -12,7 +12,7 @@ platforms: [Windows (Mac only via Parallels + Windows)]
 bestFor: "Small electrical and plumbing shops bidding residential, remodel, service, and light commercial work who want built-in labor units and assemblies, and would rather own their software than rent it."
 pros:
   - "Built for electrical and plumbing, with labor-unit adjustments (ceiling height and difficulty, global adjustments), a code section, and an estimate checklist."
-  - "You can buy it outright for $1,395 instead of subscribing, and that, which includes 6 months of updates and support."
+  - "You can buy it outright for $1,395 instead of subscribing, and the purchase includes 6 months of updates and support."
   - "Handles both plan-based bids and service work, including flat-rate pricing and time-and-material tasks."
   - "Room-by-room takeoff, and side-by-side 'per plan' vs. value-engineered or change-order versions of a bid."
   - "Optional PlanSwift integration sends counts and linear runs (home runs, trenching) straight into the takeoff screen."
@@ -23,7 +23,7 @@ cons:
   - "No refunds on any purchase or subscription; TurboBid points to the free trial instead."
   - "Updated material prices through TurboCloud are an extra $99/mo after the first free month, and staying current on upgrades is $350/year after 6 months."
   - "No built-in on-screen plan measurement without PlanSwift, which TurboBid resells for $1,750."
-verdict: "TurboBid is one of the few electrical and plumbing estimating programs a small shop can buy outright, and its labor-unit and service-work tools fit residential and light commercial bidding. Budget for the add-ons: price updates, upgrades, and plan takeoff all cost extra, and it only runs on Windows. Use the free trial on a job you've already finished and see if the numbers land close to what it really took."
+verdict: "TurboBid lets a small electrical or plumbing shop buy its estimating software outright, and its labor-unit and service-work tools fit residential and light commercial bidding. Budget for the add-ons: price updates, upgrades, and plan takeoff all cost extra, and it only runs on Windows. Use the free trial on a job you've already finished and see if the numbers land close to what it really took."
 lastVerified: 2026-10-30
 publishedAt: 2026-10-30
 affiliateUrl: ""
