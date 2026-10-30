@@ -33,7 +33,7 @@ description: "Joist review: $10–$100/mo plans, 14-day free trial, iOS/Android/
 
 Joist is estimating, invoicing, and payment software for contractors. You build line-item estimates from saved items and templates, collect a signature on site, convert the estimate to an invoice, and take card, bank transfer, or PayPal payments. Higher tiers add work orders, change orders, reports, and job scheduling. Joist also sells an AI Receptionist that answers missed calls and captures leads. We couldn't find its price on the pricing page.
 
-It's an estimate-and-invoice app, not a takeoff tool. If you bid from plans, measure with something like [STACK](../stack/) or [PlanSwift](../planswift/) and price the job in Joist or a spreadsheet.
+It's an estimate-and-invoice app, not a takeoff tool. If you bid from plans, measure with something like [STACK](../stack/) or [PlanSwift](../planswift/) and price the job in Joist or a spreadsheet. Electricians and plumbers who want built-in labor units can look at [TurboBid](../turbobid/).
 
 ## Who it's for
 
