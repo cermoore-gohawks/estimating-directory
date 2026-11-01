@@ -45,7 +45,7 @@ Clear Estimates says its parts and templates "are geared towards residential rem
 
 The vendor is upfront that other work takes more setup. Its FAQ says commercial jobs and new home construction will need you to add parts the database doesn't have. On Reddit, remodelers describe the same limit: it's solid for standard renovation job types, but custom millwork, historic restoration, or unusual materials end up as manual entry.
 
-If you just need quick quotes and invoices from your phone and price everything yourself, [Joist](../joist/) is cheaper.
+If you just need quick quotes and invoices from your phone and price everything yourself, [Joist](../joist/) is cheaper. If you'd rather describe a job and have AI draft the line items, see [Handoff](../handoff/).
 
 ## Pricing (verified October 31, 2026)
 
