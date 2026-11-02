@@ -38,7 +38,7 @@ Around the estimate it adds a CRM, client portal, e-signatures, invoices and onl
 
 Handoff says its cost data comes from supplier catalogs it integrates with, and that it tracks labor rates nationally and updates costs daily for every U.S. city. On Reddit, its founder said the company first built a construction cost database called 1build. These are vendor statements; we haven't tested the accuracy of its prices.
 
-For a non-AI alternative with a localized remodeling cost database and templates, see [Clear Estimates](../clear-estimates/). If you only need quick quotes and invoices and set every price yourself, [Joist](../joist/) is simpler and cheaper.
+For a non-AI alternative with a localized remodeling cost database and templates, see [Clear Estimates](../clear-estimates/). If you only need quick quotes and invoices and set every price yourself, [Joist](../joist/) is simpler and cheaper. Painting contractors who price by production rates rather than AI drafts can look at [PaintScout](../paintscout/).
 
 ## Who it's for
 
