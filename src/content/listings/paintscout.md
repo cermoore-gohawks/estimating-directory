@@ -43,7 +43,7 @@ It is not a takeoff tool: it doesn't measure from plans. If you bid painting fro
 
 PaintScout is for painting companies, from owner-operators to firms with several estimators, that want consistent pricing and professional proposals. On r/paint, a painter who switched from Joist said PaintScout "cuts the time to quote down significantly," and another said it was "head and shoulders above" five similar products for ease of use and presentation, though templates "take a while" to set up.
 
-Painters who mainly want automated marketing follow-ups and an all-in-one CRM often compare it with DripJobs, a painting CRM. We haven't reviewed DripJobs yet.
+Painters who mainly want automated marketing follow-ups and an all-in-one CRM often compare it with [DripJobs](../dripjobs/), a painting CRM built around automated text and email follow-ups.
 
 ## Pricing (verified November 2, 2026)
 
