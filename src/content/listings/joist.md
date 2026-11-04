@@ -39,6 +39,8 @@ It's an estimate-and-invoice app, not a takeoff tool. If you bid from plans, mea
 
 Solo and small residential contractors: handymen, remodelers, electricians, plumbers, HVAC techs, painters, landscapers, roofers, and flooring installers. Those are the trades Joist names in its own app store listings. Joist describes Basics as for "occasional jobs or businesses just starting out" and Pro as for "full-time solo contractors with a steady job flow."
 
+Landscape companies that have grown to several crews and want budget-based estimating and job costing should compare [LMN](../lmn/).
+
 ## Pricing (verified October 27, 2026)
 
 | Plan | Billed monthly | Billed annually | Key inclusions |
