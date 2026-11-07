@@ -40,7 +40,7 @@ zzTakeoff says its founder, Heber Allred, created PlanSwift and sold it in 2013,
 
 zzTakeoff markets itself to general contractors and a long list of trades: concrete, drywall, framing, masonry, landscape, roofing, insulation, electrical, plumbing, siding, flooring, painting, asphalt, and doors and windows. It's a good fit for small subs who bid from plans, want assemblies, and don't want a Windows-only desktop install or an annual contract.
 
-It's measuring software, not an estimate-and-invoice app. If you mostly quote residential jobs without plans, an app like [Joist](../joist/) is a better match.
+It's measuring software, not an estimate-and-invoice app. If you mostly quote residential jobs without plans, an app like [Joist](../joist/) is a better match. Commercial drywall and interiors subs coming from On-Screen Takeoff and Quick Bid who are fine with a Windows install can compare [BuzzBID](../buzzbid/), which adds assembly-based Div 9 estimating.
 
 ## Pricing (verified October 28, 2026)
 
