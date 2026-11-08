@@ -43,6 +43,8 @@ It doesn't do on-screen plan takeoff. If you bid from drawings, measure in a tak
 
 Clear Estimates says its parts and templates "are geared towards residential remodeling and handyman work," and that it has about 4,000 parts aimed at handymen. It fits a remodeler or handyman doing kitchens, baths, additions, painting, flooring, and similar residential jobs who wants a starting price for each line item.
 
+Flooring specialists who need roll-goods cut sheets, seam layouts, or tile patterns rather than a line-item price should look at [MeasureSquare](../measuresquare/) instead.
+
 The vendor is upfront that other work takes more setup. Its FAQ says commercial jobs and new home construction will need you to add parts the database doesn't have. On Reddit, remodelers describe the same limit: it's solid for standard renovation job types, but custom millwork, historic restoration, or unusual materials end up as manual entry.
 
 If you just need quick quotes and invoices from your phone and price everything yourself, [Joist](../joist/) is cheaper. If you'd rather describe a job and have AI draft the line items, see [Handoff](../handoff/).
