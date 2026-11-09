@@ -43,7 +43,7 @@ EstimateKit targets small and medium residential home-service shops in the US an
 
 It is a poor fit for shops that need two-way SMS, call tracking, live GPS truck tracking, tap-to-pay, customer financing, QuickBooks Desktop, or more than 25 users, and for anyone measuring ductwork or devices off drawings.
 
-For a simpler multi-trade estimate-and-invoice app without trade price books, compare [Joist](../joist/). Electricians and plumbers who bid from plans with labor units should look at [TurboBid](../turbobid/) instead.
+For a simpler multi-trade estimate-and-invoice app without trade price books, compare [Joist](../joist/). Electricians and plumbers who bid from plans with labor units should look at [TurboBid](../turbobid/) or, for electrical-only commercial bidding, [Electrical Bid Manager](../electrical-bid-manager/) instead.
 
 We found almost no independent contractor reviews. A search of Reddit and X turned up promotional posts and directory listings rather than shop owners describing day-to-day use.
 

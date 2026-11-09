@@ -40,7 +40,7 @@ TurboBid's own takeoff screen is for entering quantities, broken down by room or
 
 ## Who it's for
 
-TurboBid says it's built for "the residential and light commercial sectors," covering new construction, remodeling, service work, and flat-rate pricing. It fits a solo electrician or plumber, or a small shop, that wants trade-specific labor units instead of building every assembly in a spreadsheet. On r/electricians, contractors describe it as a simple, lower-cost starting point for housing and small commercial work, and say they moved to heavier tools like ConEst IntelliBid as they grew.
+TurboBid says it's built for "the residential and light commercial sectors," covering new construction, remodeling, service work, and flat-rate pricing. It fits a solo electrician or plumber, or a small shop, that wants trade-specific labor units instead of building every assembly in a spreadsheet. On r/electricians, contractors describe it as a simple, lower-cost starting point for housing and small commercial work, and say they moved to heavier tools like ConEst IntelliBid as they grew. Electrical contractors who outgrow it but don't want Accubid- or McCormick-level cost can compare [Electrical Bid Manager](../electrical-bid-manager/), which publishes edition prices and adds specialty databases such as fire alarm and high voltage.
 
 If you mostly need quick, good-looking quotes from your phone and don't bid from plans, an estimate-and-invoice app like [Joist](../joist/) is cheaper and simpler. For browser-based HVAC, plumbing, and electrical service quoting with trade starter price books and a flat $49/mo shop price, see [EstimateKit](../estimatekit/).
 
