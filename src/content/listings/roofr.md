@@ -33,6 +33,8 @@ description: "Roofr review: free Starter plan, $19/$13 roof measurement reports,
 
 Roofr is roofing-specific software that combines satellite **roof measurement reports**, an **Instant Estimator** lead tool for homeowners, proposals with e-signatures, material ordering, invoicing and payments, and a roofing CRM with job boards.
 
+If you'd rather measure roofs yourself from aerial imagery, or need dedicated gutter and lighting reports, compare [RoofSnap](../roofsnap/), which also sells reports pay-as-you-go.
+
 ## Who it's for
 
 Residential roofing contractors, from owner-operators to growing sales teams. Roofr's own guidance: Essentials suits new or 1–2 person teams, and Scale suits teams of 3+ running multiple jobs.
