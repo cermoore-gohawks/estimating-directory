@@ -34,7 +34,7 @@ STACK is a cloud-based construction takeoff and estimating platform from STACK C
 
 ## Who it's for
 
-STACK markets to specialty subcontractors, general contractors, suppliers, and owners. The vendor's FAQ lists concrete, drywall, flooring, insulation, landscaping, masonry, electrical, plumbing, mechanical, painting, roofing, and structural steel. Because it's browser-based, it's one of the few full takeoff tools that works on a Mac without Windows. Concrete, masonry, and drywall subs looking for a lower flat month-to-month seat with trade-specific assemblies and SOV export should also look at [ScopeTakeoff](../scopetakeoff/).
+STACK markets to specialty subcontractors, general contractors, suppliers, and owners. The vendor's FAQ lists concrete, drywall, flooring, insulation, landscaping, masonry, electrical, plumbing, mechanical, painting, roofing, and structural steel. Because it's browser-based, it's one of the few full takeoff tools that works on a Mac without Windows. Concrete, masonry, and drywall subs looking for a lower flat month-to-month seat with trade-specific assemblies and SOV export should also look at [ScopeTakeoff](../scopetakeoff/). Remodelers and small subs who only need basic area, length, and count takeoff with assemblies can compare [Square Takeoff](../square-takeoff/), which publishes month-to-month and annual prices.
 
 ## Pricing (verified October 26, 2026)
 
