@@ -34,7 +34,7 @@ description: "Square Takeoff review: browser-based plan takeoff for small contra
 
 Square Takeoff is cloud-based construction takeoff software. You upload digital plans (PDF, TIFF, or PNG), set the scale from a known dimension or the page's preset scale, and measure areas, lengths, and counts on screen. Predefined or custom assemblies then turn those measurements into material and labor quantities, and you can export the results to Excel or PDF. The vendor also lists a roof-area tool (hips, valleys, beams, gable ends, sheathing), blueprint overlay for comparing plan revisions, a parts catalog, bid management, and team roles and permissions. Google Maps imagery can be used for site takeoffs.
 
-It sits between quick estimate apps and full takeoff suites. If you quote residential jobs without plans, an app like [Joist](../joist/) is simpler. If you want deeper takeoff features, compare [zzTakeoff](../zztakeoff/), [STACK](../stack/), or Windows-only [PlanSwift](../planswift/). Concrete and masonry subs who want trade assemblies at a lower flat monthly price should also look at [ScopeTakeoff](../scopetakeoff/).
+It sits between quick estimate apps and full takeoff suites. If you quote residential jobs without plans, an app like [Joist](../joist/) is simpler. If you want deeper takeoff features, compare [zzTakeoff](../zztakeoff/), [STACK](../stack/), or Windows-only [PlanSwift](../planswift/). Concrete and masonry subs who want trade assemblies at a lower flat monthly price should also look at [ScopeTakeoff](../scopetakeoff/). Residential builders who want takeoff tied to quotes, ordering, and scheduling can compare [Buildxact](../buildxact/).
 
 ## Who it's for
 

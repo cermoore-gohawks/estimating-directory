@@ -37,7 +37,7 @@ From the estimate it produces a proposal with pre-written scope language, which 
 
 Clear Estimates also has an "AI Scope Assistant": you describe the project and it picks matching parts from the library to start a preliminary estimate. Pro adds what the vendor calls "AI-powered image & plan uploads." We haven't tested either AI feature.
 
-It doesn't do on-screen plan takeoff. If you bid from drawings, measure in a takeoff tool like [STACK](../stack/), [zzTakeoff](../zztakeoff/), or [PlanSwift](../planswift/) and bring the quantities in.
+It doesn't do on-screen plan takeoff. If you bid from drawings, measure in a takeoff tool like [STACK](../stack/), [zzTakeoff](../zztakeoff/), or [PlanSwift](../planswift/) and bring the quantities in. Remodelers who want takeoff, estimating, and quoting in one residential-focused tool can compare [Buildxact](../buildxact/), which costs more but includes on-plan takeoff.
 
 ## Who it's for
 
