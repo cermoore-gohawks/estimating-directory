@@ -36,7 +36,7 @@ RoofSnap is roofing and gutter software from a Denver-based company that combine
 
 Measurements flow into the estimating side. Instant Estimates auto-fills roof area and pitch from a property address and gives you a link to share with the homeowner. Good-better-best options and a detailed estimate builder with your own materials, markups, overhead, and commission rates are also included. From there you can send material orders, e-sign contracts, and take card or ACH payments through RoofSnap Payments (powered by Stripe). Homeowner financing is offered through Acorn Finance.
 
-If you'd rather have a roofing CRM with job boards and automations, compare [Roofr](../roofr/). Contractors bidding commercial roofs from blueprints should look at a plan takeoff tool such as [PlanSwift](../planswift/) or [STACK](../stack/).
+If you'd rather have a roofing CRM with job boards and automations, compare [Roofr](../roofr/) or [JobNimbus](../jobnimbus/). Contractors bidding commercial roofs from blueprints should look at a plan takeoff tool such as [PlanSwift](../planswift/) or [STACK](../stack/).
 
 ## Who it's for
 
