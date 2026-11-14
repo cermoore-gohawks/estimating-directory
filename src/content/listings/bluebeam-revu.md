@@ -38,7 +38,7 @@ For estimating, Revu is a measuring tool rather than a full takeoff-and-pricing 
 
 ## Who it's for
 
-Revu isn't built for one trade. It fits GCs, remodelers, and subs who receive plans as PDFs and need to measure them, mark them up, and trade comments with the rest of the project team. It's a common first step up from paper or manual takeoffs because the seat is cheap compared with dedicated takeoff software.
+Revu isn't built for one trade. It fits GCs, remodelers, and subs who receive plans as PDFs and need to measure them, mark them up, and trade comments with the rest of the project team. It's a common first step up from paper or manual takeoffs because the seat is cheap compared with dedicated takeoff software. If you don't need PDF editing or collaboration and just want to trace lengths, areas, and counts, [Mint Takeoff](../mint-takeoff/) costs $15/month per seat.
 
 Estimators who do heavy, repetitive takeoffs often find it slower than tools built around assemblies and templates. In [r/estimators threads](https://www.reddit.com/r/estimators/comments/1u3vdnn/moving_from_planswift_to_bluebeam_looking_for_csi/), several users say Bluebeam handles simple areas, lengths, and counts well but recommend [PlanSwift](../planswift/) or [zzTakeoff](../zztakeoff/) for all-day takeoff work. If you need a priced estimate and proposal out of the same tool, look at [STACK](../stack/).
 
