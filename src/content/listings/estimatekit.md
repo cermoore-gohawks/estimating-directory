@@ -35,7 +35,7 @@ EstimateKit is browser-based home-service software for HVAC, plumbing, and elect
 
 Each trade starts with a priced book: the HVAC page says a new HVAC account opens with **41 repairs** in seven groups plus six good/better/best quotes (2-, 3-, and 4-ton AC replacements, a furnace, a heat pump, and a tune-up). Plumbing and electrical pages each advertise **45 repairs** with starter templates (water heaters, panels, EV chargers, and similar). You set your hourly rate and markup once and the book re-prices. Maintenance plans, equipment records (model, serial, install date, data-plate photo), CSV customer import, and offline estimate editing are included.
 
-The vendor is explicit about what it is not: **not a plan takeoff tool**. Commercial and new-construction bids measured from drawings belong in tools such as [PlanSwift](../planswift/), [STACK](../stack/), or trade-specific bid software. EstimateKit is for pricing known service and replacement jobs at the house.
+The vendor is explicit about what it is not: **not a plan takeoff tool**. Commercial and new-construction bids measured from drawings belong in tools such as [PlanSwift](../planswift/), [STACK](../stack/), or trade-specific bid software like [FastPIPE](../fastpipe/) for commercial plumbing and mechanical piping. EstimateKit is for pricing known service and replacement jobs at the house.
 
 ## Who it's for
 
