@@ -35,7 +35,7 @@ MeasureSquare is takeoff and estimating software built for floor covering. You d
 
 It comes in three product lines: MeasureSquare 8 for Windows desktops, MeasureSquare Mobile for iOS and Android, and a Stone & Tile edition for countertop and cut-to-size stone work with slab optimization and shop drawings. A separate CRM product handles project management and bidding. The company is based in Pasadena, California.
 
-General takeoff tools like [PlanSwift](../planswift/) and [Bluebeam Revu](../bluebeam-revu/) can measure floor areas, but they don't lay out roll goods or tile patterns. For whole-job residential remodel pricing that includes flooring, compare [Clear Estimates](../clear-estimates/).
+General takeoff tools like [PlanSwift](../planswift/) and [Bluebeam Revu](../bluebeam-revu/) can measure floor areas, but they don't lay out roll goods or tile patterns. For whole-job residential remodel pricing that includes flooring, compare [Clear Estimates](../clear-estimates/). Dealers already running RFMS business software, or comparing the two flooring-specific tools forum users debate most, should also look at [RFMS Measure](../rfms-measure/), which costs more ($809/yr entry, $2,400/yr for PDF plan import) but exports straight into RFMS.
 
 ## Who it's for
 
