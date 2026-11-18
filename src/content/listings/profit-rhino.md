@@ -82,7 +82,7 @@ Notes:
 - **Conflicting prices:** the separate Starter, Plus, and Pro pages show $35, $45, and $55 per tech per month, and $49/month for the light commercial add-on. Capterra lists $39, $49, and $59, which matches the comparison page, so we used those numbers.
 - **Implementation fees** appear only on the individual plan pages: $299 for Starter ("up and running in one day"), $699 for Plus (1 to 2 weeks of coaching), and $1,499 for Pro (3 to 4 weeks of coaching covering book setup, tech training, and admin training). The comparison page says implementation is required but doesn't give a price. The Integrate page doesn't price it either.
 - The homepage says "No Contracts, love it or leave it!" and promises "Free US based support for life."
-- **Housecall Pro:** Housecall Pro offers Profit Rhino price books for HVAC, plumbing, drain cleaning, and electrical as a $199/month feature. Housecall Pro hosts the data, and its help center says you don't need a separate Profit Rhino subscription for this.
+- **Housecall Pro:** [Housecall Pro](../housecall-pro/) offers Profit Rhino price books for HVAC, plumbing, drain cleaning, and electrical as a $199/month feature. Housecall Pro hosts the data, and its help center says you don't need a separate Profit Rhino subscription for this.
 - **No free trial** or free plan is advertised. The mobile apps are free downloads, but you need an account to log in. App Store and Google Play reviewers complain that the app offers no way to sign up.
 
 ## Platforms
@@ -94,7 +94,7 @@ Integrations we could confirm:
 
 - **FieldEdge:** API sync, documented in Profit Rhino's help center
 - **Service Fusion:** connection documented in Service Fusion's help center
-- **Housecall Pro:** hosted price book feature
+- **Housecall Pro:** hosted price book feature (see our [Housecall Pro review](../housecall-pro/))
 - **ServiceTitan:** listed by Capterra. A one-star reviewer on review aggregator a2is says there was no live API connection to ServiceTitan, only an initial import. We couldn't confirm either way.
 
 ## Ratings
