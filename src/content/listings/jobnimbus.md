@@ -41,6 +41,8 @@ It doesn't measure roofs itself. Pair it with a measurement report or tool; if y
 
 The vendor says it's built for home exterior contractors, "specifically ones who work primarily in roofing, restoration roofing, solar, gutters, and siding," from single-crew shops to multi-location sales teams. Reviewers and forum posters most often recommend it to insurance-restoration roofers with several salespeople. Small retail-only crews often find it more than they need.
 
+Its most common head-to-head rival is [AccuLynx](../acculynx/), which also sells by custom quote but has no free trial and leans harder into insurance-restoration workflows (supplement and mortgage-check tracking on its Elite plan).
+
 ## Pricing (checked November 13, 2026)
 
 JobNimbus doesn't publish dollar prices. Its pricing page lists these plans:
