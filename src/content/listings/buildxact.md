@@ -42,6 +42,8 @@ It's a bigger tool than a pure takeoff app. If you only need to measure plans, c
 
 The vendor pitches it to "residential builders, remodelers and trades" and says it's used by over 7,000 construction companies. Its customer stories are mostly remodelers, kitchen-and-bath shops, and small home builders. The Foundation plan is aimed at "builders, general contractors and trades who want to win more jobs," Pro at contractors managing multiple projects and teams, and Master at "established builders."
 
+If you also want scheduling, selections, purchase orders, and job costing in the same system, compare [JobTread](../jobtread/) (one all-features plan, no free trial) and [Contractor Foreman](../contractor-foreman/).
+
 ## Pricing (verified November 12, 2026)
 
 From Buildxact's US pricing page, in USD. Annual plans are 15% cheaper and require a 12-month commitment.

@@ -49,13 +49,14 @@ A SweetPay integration lets homeowners request financing offers from up to four 
 
 Small to mid-sized general contractors, remodelers, and trade contractors who want one inexpensive system for the office and the field. The vendor says its Takeoffs feature is designed for "small- to mid-sized contractors and remodelers who handle estimating themselves."
 
-On r/Contractor it comes up often as a cheaper alternative to Buildertrend, JobTread, and Procore. In a February 2024 thread comparing it with JobTread, a three-person company said "once it is all setup, it saves a lot of time with estimating," while a similar-sized GC said estimates and invoices looked better than their old Excel system but the software was "more buggy than I would like," including estimate edits that didn't save. A pool builder in the same thread (December 2024) cited outages, estimate items not saving, and a slow app, and was moving to JobTread. In a March 2023 thread, a user called it "pretty good" and said the cost "isn't outrageous for what you get." (We ignored a polished 2026 reply to that 2023 thread that read like promotion.)
+On r/Contractor it comes up often as a cheaper alternative to Buildertrend, [JobTread](../jobtread/), and Procore. In a February 2024 thread comparing it with JobTread, a three-person company said "once it is all setup, it saves a lot of time with estimating," while a similar-sized GC said estimates and invoices looked better than their old Excel system but the software was "more buggy than I would like," including estimate edits that didn't save. A pool builder in the same thread (December 2024) cited outages, estimate items not saving, and a slow app, and was moving to JobTread. In a March 2023 thread, a user called it "pretty good" and said the cost "isn't outrageous for what you get." (We ignored a polished 2026 reply to that 2023 thread that read like promotion.)
 
 Alternatives:
 
 - For residential takeoff, estimating, and quoting in one tool with deeper estimating, see [Buildxact](../buildxact/).
 - For quick remodeling estimates from a built-in cost database, without job management, see [Clear Estimates](../clear-estimates/).
 - For dedicated plan takeoff and estimating, see [STACK](../stack/) or [PlanSwift](../planswift/).
+- For a budget-first all-in-one with built-in takeoff and one all-features price, see [JobTread](../jobtread/).
 - For simple quotes and invoices from your phone, see [Joist](../joist/).
 
 ## Pricing (checked November 20, 2026)
