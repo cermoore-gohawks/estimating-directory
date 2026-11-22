@@ -48,7 +48,7 @@ There are three editions plus an AI add-on:
 - **Measure Mobile** (iOS, Android, Windows) for on-site measuring and quoting. It works with no network connection, connects to Leica DISTO D1, D2, E7100i, and E7500i laser meters, and handles roll allocation, seams, t-seam limits, pattern repeat, a worksheet with tax and margin, signature capture, and PDF proposals (per the app store listings).
 - **Measure Standard** (Windows) for dealers, retail sales, contractors, estimators, and installers.
 - **Measure Premier** (Windows) adds custom tile patterns, 3D wall stacks and tub and shower surrounds, advanced profit margin tools, PDF and CAD import, multiple scenarios, project phases, coving and ceiling tile, and advanced Excel export.
-- **Blueprint AI for Measure Premier**, powered by Togal.AI, maps room boundaries from a PDF. Cyncly says it's "98% accuracy" and goes from blueprint to ready-to-bid estimate "in as little as 75 seconds." Those are vendor claims we haven't tested.
+- **Blueprint AI for Measure Premier**, powered by [Togal.AI](../togal-ai/), maps room boundaries from a PDF. Cyncly says it's "98% accuracy" and goes from blueprint to ready-to-bid estimate "in as little as 75 seconds." Those are vendor claims we haven't tested.
 
 ## Who it's for
 
