@@ -51,6 +51,7 @@ Contractors ask about it often. In an r/Construction thread ("Is housecall worth
 
 Alternatives:
 
+- For the closest all-in-one competitor, with a $29/month (annual) entry plan and Home Depot pricing built into quotes, see [Jobber](../jobber/).
 - For a simpler, cheaper estimate-and-invoice app, see [Joist](../joist/).
 - For good/better/best quoting with starter trade price books, see [EstimateKit](../estimatekit/).
 - For a standalone flat-rate book you can plug into other software, see [Profit Rhino](../profit-rhino/).
