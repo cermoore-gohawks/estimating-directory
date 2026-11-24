@@ -36,7 +36,7 @@ Buildxact is cloud-based estimating and job-management software for residential 
 
 The vendor's AI assistant, Blu, is spread across the plans: an Assembly Assistant (Foundation and up), an Estimate Generator that builds an estimate from a description (Go and Pro and up), a Takeoff Assistant that the vendor says auto-scales and auto-measures plans, and an Estimate Reviewer that flags missed items (both included in Master or as Pro add-ons).
 
-It's a bigger tool than a pure takeoff app. If you only need to measure plans, compare [zzTakeoff](../zztakeoff/), [ScopeTakeoff](../scopetakeoff/), [Square Takeoff](../square-takeoff/), or [STACK](../stack/). If you quote small residential jobs without plans, [Joist](../joist/) or [Clear Estimates](../clear-estimates/) are lighter and cheaper. If you want a cheaper all-in-one with job management, bid invitations, and built-in takeoff on its upper plans, see [Contractor Foreman](../contractor-foreman/).
+It's a bigger tool than a pure takeoff app. If you only need to measure plans, compare [zzTakeoff](../zztakeoff/), [ScopeTakeoff](../scopetakeoff/), [Square Takeoff](../square-takeoff/), or [STACK](../stack/). If you quote small residential jobs without plans, [Joist](../joist/) or [Clear Estimates](../clear-estimates/) are lighter and cheaper. If you want a cheaper all-in-one with job management, bid invitations, and built-in takeoff on its upper plans, see [Contractor Foreman](../contractor-foreman/). Remodelers and design-build firms that also want 3D floor plans and selections can compare [Houzz Pro](../houzz-pro/) (annual contract).
 
 ## Who it's for
 

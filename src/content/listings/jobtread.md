@@ -55,6 +55,7 @@ Alternatives:
 
 - For a cheaper all-in-one with tiered, flat company pricing and a free trial, see [Contractor Foreman](../contractor-foreman/).
 - For residential estimating and takeoff with a free plan and a 14-day trial, see [Buildxact](../buildxact/).
+- For remodelers who want takeoff, estimates, 3D floor plans, and selections in one system (on a 12-month contract), see [Houzz Pro](../houzz-pro/).
 - For quick remodeling estimates from a built-in cost database, see [Clear Estimates](../clear-estimates/).
 - For simple quotes and invoices from your phone, see [Joist](../joist/).
 - For dedicated takeoff, see [STACK](../stack/).
