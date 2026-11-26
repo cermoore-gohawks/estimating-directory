@@ -53,6 +53,7 @@ Contractors ask about it constantly. In an r/Contractor thread ("Does anyone use
 Alternatives:
 
 - For a similar all-in-one with good/better/best proposals, see [Housecall Pro](../housecall-pro/).
+- HVAC, plumbing, and electrical shops outgrowing Jobber with a larger tech team can look at [FieldPulse](../fieldpulse/) (quote-only, no free trial).
 - For a cheaper estimate-and-invoice app without scheduling depth, see [Joist](../joist/).
 - For good/better/best quoting with starter trade price books, see [EstimateKit](../estimatekit/).
 - Landscape companies that want budget-based estimating and job costing should compare [LMN](../lmn/).

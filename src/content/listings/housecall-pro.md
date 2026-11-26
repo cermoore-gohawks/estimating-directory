@@ -55,6 +55,7 @@ Alternatives:
 - For a simpler, cheaper estimate-and-invoice app, see [Joist](../joist/).
 - For good/better/best quoting with starter trade price books, see [EstimateKit](../estimatekit/).
 - For a standalone flat-rate book you can plug into other software, see [Profit Rhino](../profit-rhino/).
+- Growing shops with several techs that want a deeper, quote-only platform with cheaper field-only seats should compare [FieldPulse](../fieldpulse/).
 - If you bid plumbing, mechanical, or electrical work from plans, look at [FastPIPE](../fastpipe/), [TurboBid](../turbobid/), or [Electrical Bid Manager](../electrical-bid-manager/).
 
 ## Pricing (checked November 18, 2026)
