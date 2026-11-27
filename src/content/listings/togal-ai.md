@@ -60,6 +60,7 @@ What estimators say on r/estimators lines up with that, with caveats:
 Alternatives:
 
 - For browser-based takeoff with a free plan and paid seats at the same $299/user/month (billed annually), see [STACK](../stack/).
+- For browser-based AI takeoff from the makers of On-Screen Takeoff and PlanSwift, with a $1,200/yr single-seat Starter plan, see [ConstructConnect Takeoff](../constructconnect-takeoff/).
 - For cheaper browser-based manual takeoff, see [zzTakeoff](../zztakeoff/) or [Square Takeoff](../square-takeoff/).
 - For Windows takeoff with Excel-style assemblies, see [PlanSwift](../planswift/). For PDF markups with basic measuring, see [Bluebeam Revu](../bluebeam-revu/).
 - Flooring estimators can get Togal-powered room detection inside [RFMS Measure](../rfms-measure/) Premier through its Blueprint AI add-on.

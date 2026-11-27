@@ -53,6 +53,7 @@ On Reddit, OST comes up often among concrete and commercial estimators. In an r/
 Alternatives:
 
 - Same vendor, published annual price, assemblies built in: [PlanSwift](../planswift/).
+- Same vendor in a browser, with published prices (from $1,200/yr): [ConstructConnect Takeoff](../constructconnect-takeoff/).
 - Browser-based, works on Mac, much cheaper: [zzTakeoff](../zztakeoff/), [Square Takeoff](../square-takeoff/), or [Mint Takeoff](../mint-takeoff/) for basic lengths, areas, and counts.
 - Cloud takeoff with estimating and proposals: [STACK](../stack/).
 - AI-first cloud takeoff: [Togal.AI](../togal-ai/).
@@ -83,7 +84,7 @@ Notes:
 
 - **Windows desktop app.** ConstructConnect certifies Windows 11 Pro or Enterprise and recommends an Intel Core i5 or faster, 8 GB+ RAM, and an SSD. An internet connection is required.
 - **Mac:** no native version. You can run it on Windows via Boot Camp (Intel Macs) or Parallels (Apple silicon), but ConstructConnect says it doesn't test those setups.
-- **No iPad, phone, or browser version** of OST. ConstructConnect sells a separate browser product, ConstructConnect Takeoff, for that.
+- **No iPad, phone, or browser version** of OST. ConstructConnect sells a separate browser product, [ConstructConnect Takeoff](../constructconnect-takeoff/), for that, with published annual prices.
 - Features that use Excel or Word need locally installed, licensed Microsoft Office (the web versions don't work).
 
 ## Ratings
