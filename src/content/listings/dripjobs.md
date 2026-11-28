@@ -48,7 +48,7 @@ DripJobs fits residential painting companies, and other home-service trades it l
 
 Opinions are mixed. On PaintTalk, one painter said the drip messages "have clinched me more jobs than I can count," while another who used it for a couple of months called it "clunky, glitchy" and more expensive than alternatives once everything is added up. On r/CRM, a customer of about a year said that if you quit "you lose all of the data you created" and that DripJobs wouldn't transfer the texting number. These are individual user reports, not our testing.
 
-If your priority is fast, consistent painting estimates and polished proposals, compare [PaintScout](../paintscout/). For simple quotes and invoices across many trades at a lower price, see [Joist](../joist/).
+If your priority is fast, consistent painting estimates and polished proposals, compare [PaintScout](../paintscout/). For simple quotes and invoices across many trades at a lower price, see [Joist](../joist/). Painters who want template-based estimates, follow-ups, scheduling, and job costing with 3 users included in one flat monthly price can compare [Estimate Rocket](../estimate-rocket/).
 
 ## Pricing (verified November 3, 2026)
 
